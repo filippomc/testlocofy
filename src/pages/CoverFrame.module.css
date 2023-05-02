@@ -1,0 +1,2215 @@
+.coverFrameChild,
+.coverFrameItem {
+  position: absolute;
+  top: 0;
+  height: 60rem;
+}
+.coverFrameChild {
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  width: 120rem;
+}
+.coverFrameItem {
+  left: 18.62rem;
+  width: 81.38rem;
+  object-fit: cover;
+}
+.coverFrameInner {
+  position: absolute;
+  height: 7.2%;
+  width: 22.92%;
+  top: 44.34%;
+  right: 3.36%;
+  bottom: 48.46%;
+  left: 73.72%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.madeByTeam {
+  position: absolute;
+  top: 54.7rem;
+  left: 73.33rem;
+}
+.travelWebsite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.travelWebsiteWrapper {
+  position: absolute;
+  top: 51.71rem;
+  left: 73.33rem;
+  width: 14rem;
+  height: 2.5rem;
+  font-size: 2.13rem;
+  color: var(--primary-contrast);
+}
+.fickleflightLogoIcon {
+  position: relative;
+  width: 8.13rem;
+  height: 1.54rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.explore,
+.hotels,
+.offers,
+.search {
+  position: relative;
+  font-size: 0.65rem;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-100);
+  text-align: left;
+  display: inline-block;
+  width: 2.2rem;
+  height: 0.75rem;
+  flex-shrink: 0;
+}
+.hotels,
+.offers,
+.search {
+  color: var(--color-darkslategray-100);
+  width: 2.01rem;
+}
+.hotels,
+.offers {
+  width: 1.92rem;
+}
+.offers {
+  width: 1.82rem;
+}
+.navigationMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.4rem;
+}
+.hamburgerMenuIcon {
+  display: none;
+}
+.hamburgerMenuIcon,
+.notificationBellIcon {
+  position: relative;
+  width: 1.12rem;
+  height: 1.12rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.unsplashd1upkifd04aIcon {
+  border-radius: 28.41px;
+  width: 1.68rem;
+  height: 1.68rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.accountSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.56rem;
+}
+.navigationRight {
+  justify-content: flex-end;
+  gap: 1.68rem;
+}
+.navigationRight,
+.topContainer,
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.topContainer {
+  flex: 1;
+  justify-content: space-between;
+}
+.topHeader {
+  align-self: stretch;
+  background-color: var(--primary-contrast);
+  height: 3.6rem;
+  flex-shrink: 0;
+  padding: 1.03rem 3.74rem;
+  box-sizing: border-box;
+  justify-content: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background: #fff;
+}
+.bannerBackground,
+.bannerGradient {
+  position: absolute;
+  width: calc(100% + 0.01px);
+  right: 0;
+  left: 0;
+  height: 29.9rem;
+}
+.bannerGradient {
+  top: 0;
+  background: linear-gradient(78.78deg, #114f8b 5.2%, #2a9ad7);
+}
+.bannerBackground {
+  top: 0.02rem;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.findTheBest,
+.letsExplore {
+  align-self: stretch;
+  position: relative;
+  font-size: 2.85rem;
+  line-height: 3.13rem;
+  font-family: var(--font-baloo-bhai);
+  color: var(--primary-contrast);
+  text-align: center;
+}
+.findTheBest {
+  font-size: 1.12rem;
+  line-height: 1.5rem;
+  font-family: var(--font-roboto);
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.23rem;
+}
+.departureField,
+.title {
+  align-self: stretch;
+}
+.inputGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0.23rem;
+  align-items: center;
+  justify-content: center;
+}
+.arrival,
+.labelContainer {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.arrival {
+  position: relative;
+  font-size: 0.56rem;
+  letter-spacing: 0.11px;
+  line-height: 0.56rem;
+  font-family: var(--font-roboto);
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  width: 1.64rem;
+  height: 0.56rem;
+}
+.labelContainer {
+  background-color: var(--primary-contrast);
+  height: 0.09rem;
+  flex-direction: row;
+  padding: 0 0.19rem;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.avatar,
+.op {
+  align-items: center;
+  justify-content: center;
+}
+.op {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: 0.56rem;
+  letter-spacing: 0.3px;
+  line-height: 166%;
+  font-family: var(--font-roboto);
+  color: var(--color-dimgray);
+  text-align: center;
+  display: flex;
+}
+.avatar {
+  border-radius: 47.84px;
+  background-color: var(--color-silver);
+  width: 1.12rem;
+  height: 1.12rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+}
+.chip1 {
+  position: relative;
+  font-size: 0.61rem;
+  letter-spacing: 0.12px;
+  line-height: 0.84rem;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.container,
+.typography {
+  display: flex;
+  flex-direction: column;
+  padding: 0.14rem 0.28rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  border-radius: 11.96px;
+  background-color: var(--color-gainsboro-100);
+  flex-direction: row;
+  padding: 0.19rem;
+  align-items: center;
+}
+.chip,
+.muiautocompletetag {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chip {
+  display: flex;
+  flex-direction: column;
+}
+.muiautocompletetag {
+  display: none;
+  flex-direction: row;
+  gap: 0.37rem;
+}
+.losAngelesLa {
+  flex: 1;
+  position: relative;
+  font-size: 0.75rem;
+  letter-spacing: 0.11px;
+  line-height: 1.12rem;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.active,
+.input {
+  align-self: stretch;
+}
+.active {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0.7rem 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.37rem;
+}
+.input {
+  border-radius: 2.99px;
+  border: 0.7px solid rgba(0, 0, 0, 0.23);
+  box-sizing: border-box;
+  height: 2.62rem;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0.56rem;
+}
+.arrivalField,
+.input,
+.inputsRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrivalField {
+  align-self: stretch;
+  height: 2.62rem;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.inputsRow {
+  flex: 1;
+  flex-direction: row;
+}
+.button {
+  position: relative;
+  font-size: 0.7rem;
+  letter-spacing: 0.34px;
+  line-height: 1.22rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: center;
+  display: inline-block;
+  width: 6.87rem;
+}
+.buttonGroup,
+.searchFlightsButton,
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchFlightsButton {
+  border-radius: 2.99px;
+  width: 7.66rem;
+  height: 2.62rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.searchFlightsButton,
+.searchFlightsButton:hover {
+  background-color: var(--color-orange);
+}
+.buttonGroup,
+.searchForm {
+  padding: 0.23rem;
+}
+.searchForm {
+  align-self: stretch;
+  border-radius: 7.48px;
+  background-color: var(--primary-contrast);
+  flex-direction: row;
+  padding: 0.93rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 29.9rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 6.54rem;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 2.01rem;
+}
+.searchSection {
+  align-self: stretch;
+  position: relative;
+  height: 29.9rem;
+  flex-shrink: 0;
+}
+.heroSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sin,
+.singapore,
+.upcomingFlight {
+  font-family: var(--font-roboto);
+  text-align: left;
+  display: inline-block;
+}
+.upcomingFlight {
+  position: relative;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-darkslategray-200);
+  width: 59.25rem;
+}
+.sin,
+.singapore {
+  position: absolute;
+  left: 0;
+  text-transform: capitalize;
+}
+.sin {
+  top: 0;
+  font-size: 1.12rem;
+  letter-spacing: 0.04em;
+  color: var(--color-cornflowerblue-200);
+  width: 2.09rem;
+  height: 1.31rem;
+}
+.singapore {
+  top: 1.4rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+  width: 3.36rem;
+  height: 0.75rem;
+}
+.fromDetails {
+  position: relative;
+  width: 3.36rem;
+  height: 2.15rem;
+  flex-shrink: 0;
+}
+.h55m {
+  position: absolute;
+  top: 1.31rem;
+  left: 1.11rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  display: inline-block;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: left;
+  width: 3.07rem;
+  height: 0.75rem;
+}
+.durationChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5.48rem;
+  height: 1.12rem;
+}
+.duration {
+  position: relative;
+  width: 5.48rem;
+  height: 2.06rem;
+  flex-shrink: 0;
+}
+.lax,
+.losAngeles {
+  position: absolute;
+  text-transform: capitalize;
+  font-family: var(--font-roboto);
+  text-align: right;
+  display: inline-block;
+}
+.lax {
+  top: 0;
+  left: 1.68rem;
+  font-size: 1.12rem;
+  letter-spacing: 0.04em;
+  color: var(--color-cornflowerblue-200);
+  width: 2.4rem;
+  height: 1.31rem;
+}
+.losAngeles {
+  top: 1.4rem;
+  left: 0;
+  font-size: 0.65rem;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+  width: 4.08rem;
+  height: 0.75rem;
+}
+.toDetails {
+  position: relative;
+  width: 4.08rem;
+  height: 2.15rem;
+  flex-shrink: 0;
+}
+.toAndFrom {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.departsOn1,
+.horizontalLine {
+  position: relative;
+  flex-shrink: 0;
+}
+.horizontalLine {
+  align-self: stretch;
+  border-top: 0.7px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  height: 0.05rem;
+}
+.departsOn1 {
+  font-size: 0.65rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  width: 9.53rem;
+}
+.days,
+.departsOn1 {
+  font-family: var(--font-roboto);
+}
+.daysToGoContainer {
+  position: relative;
+  font-size: 0.65rem;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+  text-align: right;
+  display: inline-block;
+  width: 4.08rem;
+  flex-shrink: 0;
+}
+.flightMainContainer {
+  border-radius: 5.98px;
+  border: 0.7px solid var(--color-whitesmoke);
+  display: flex;
+  flex-direction: column;
+  padding: 0.93rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.98rem;
+}
+.lineSeparator {
+  position: relative;
+  border-right: 0.7px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  width: 0.05rem;
+  height: 6.82rem;
+  flex-shrink: 0;
+}
+.prepareForYour {
+  align-self: stretch;
+  position: relative;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  color: #cecece;
+  text-align: left;
+}
+.hotel1,
+.hotelChild {
+  position: relative;
+  width: 3.06rem;
+  height: 3.06rem;
+  flex-shrink: 0;
+}
+.hotel1 {
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  width: 1.82rem;
+  height: 0.84rem;
+}
+.hotel {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.37rem;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 11.96px;
+  background-color: #ff9b53;
+  width: 3.06rem;
+  height: 3.06rem;
+}
+.groupIcon {
+  position: absolute;
+  height: 47.93%;
+  width: 48.38%;
+  top: 26.04%;
+  right: 25.81%;
+  bottom: 26.03%;
+  left: 25.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.attractions1,
+.eats1 {
+  position: relative;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  width: 3.74rem;
+  height: 0.84rem;
+  flex-shrink: 0;
+}
+.eats1 {
+  width: 1.5rem;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 11.96px;
+  background-color: #fdbf00;
+  width: 3.06rem;
+  height: 3.06rem;
+}
+.vectorIcon {
+  position: absolute;
+  height: 48.43%;
+  width: 41.17%;
+  top: 26.51%;
+  right: 29.42%;
+  bottom: 25.06%;
+  left: 29.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.commute1 {
+  position: relative;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  width: 3.27rem;
+  height: 0.84rem;
+  flex-shrink: 0;
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 11.96px;
+  background-color: #4dabff;
+  width: 3.27rem;
+  height: 3.06rem;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 40.15%;
+  width: 40.52%;
+  top: 29.63%;
+  right: 29.74%;
+  bottom: 30.22%;
+  left: 29.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleContainer {
+  position: relative;
+  width: 3.27rem;
+  height: 3.06rem;
+  flex-shrink: 0;
+}
+.taxi1 {
+  position: relative;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  width: 1.5rem;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 11.96px;
+  background-color: #79ca00;
+  width: 3.06rem;
+  height: 3.06rem;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 35.6%;
+  width: 39.93%;
+  top: 32.2%;
+  right: 30.04%;
+  bottom: 32.2%;
+  left: 30.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.movies1 {
+  position: relative;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  width: 2.43rem;
+  height: 0.84rem;
+  flex-shrink: 0;
+}
+.tripMenus {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.flightDetails,
+.prepareMenu,
+.upcomingFlightSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.prepareMenu {
+  flex: 1;
+  flex-direction: column;
+  gap: 0.93rem;
+}
+.flightDetails,
+.upcomingFlightSection {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 1.68rem;
+}
+.upcomingFlightSection {
+  flex-direction: column;
+  gap: 0.93rem;
+}
+.mostPopularDestinations,
+.planYourNext {
+  align-self: stretch;
+  position: relative;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-200);
+  text-align: left;
+}
+.mostPopularDestinations {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: var(--color-darkslategray-200);
+}
+.titleContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.28rem;
+}
+.viewAllDestinations {
+  position: relative;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-200);
+  text-align: right;
+  display: inline-block;
+  width: 9.22rem;
+  flex-shrink: 0;
+}
+.destinationsTitles,
+.viewAllTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.viewAllTop {
+  text-decoration: none;
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  width: 10.81rem;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 0.47rem;
+}
+.destinationsTitles {
+  align-self: stretch;
+  align-items: center;
+}
+.unsplashnnzkznywhauIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div,
+.from,
+.paris {
+  color: var(--primary-contrast);
+}
+.paris {
+  flex: 1;
+  position: relative;
+  font-size: 0.93rem;
+  letter-spacing: 0.02em;
+  font-family: var(--font-roboto);
+  text-align: left;
+}
+.div,
+.from {
+  position: absolute;
+  text-align: right;
+  display: inline-block;
+}
+.div {
+  top: 0.98rem;
+  left: 0;
+  font-size: 1.78rem;
+  line-height: 1.78rem;
+  font-family: var(--font-baloo-bhai);
+  width: 4.25rem;
+  height: 1.78rem;
+}
+.from {
+  top: 0;
+  left: 1.79rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  width: 2.45rem;
+  height: 0.89rem;
+}
+.parent {
+  position: relative;
+  width: 4.25rem;
+  height: 2.76rem;
+  flex-shrink: 0;
+}
+.destinationDetails {
+  position: absolute;
+  width: calc(100% - 0.44px);
+  top: 0;
+  right: 0.01rem;
+  left: 0.01rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.37rem 0.56rem;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.unsplashnnzkznywhauParent {
+  align-self: stretch;
+  position: relative;
+  border-radius: 7.48px;
+  height: 8.5rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.card1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0.75rem;
+  background-color: transparent;
+  width: 25%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.div1,
+.from1 {
+  position: absolute;
+  color: var(--primary-contrast);
+  text-align: right;
+  display: inline-block;
+}
+.div1 {
+  top: 0.98rem;
+  left: 0;
+  font-size: 1.78rem;
+  line-height: 1.78rem;
+  font-family: var(--font-baloo-bhai);
+  width: 4.63rem;
+  height: 1.78rem;
+}
+.from1 {
+  top: 0;
+  left: 2.21rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  width: 2.45rem;
+  height: 0.89rem;
+}
+.group {
+  position: relative;
+  width: 4.67rem;
+  height: 2.76rem;
+  flex-shrink: 0;
+}
+.div3,
+.from3 {
+  position: absolute;
+  color: var(--primary-contrast);
+  text-align: right;
+  display: inline-block;
+}
+.div3 {
+  top: 0.98rem;
+  left: 0;
+  font-size: 1.78rem;
+  line-height: 1.78rem;
+  font-family: var(--font-baloo-bhai);
+  width: 4.7rem;
+  height: 1.78rem;
+}
+.from3 {
+  top: 0;
+  left: 2.25rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  width: 2.45rem;
+  height: 0.89rem;
+}
+.parent2 {
+  position: relative;
+  width: 4.7rem;
+  height: 2.76rem;
+  flex-shrink: 0;
+}
+.cardsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.viewAllDestinations1 {
+  position: relative;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-200);
+  text-align: right;
+  display: inline-block;
+  width: 9.22rem;
+  flex-shrink: 0;
+}
+.popDestinationsMain,
+.viewAllBottom {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewAllBottom {
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  width: 10.81rem;
+  display: none;
+  flex-direction: row;
+  gap: 0.47rem;
+}
+.popDestinationsMain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 1.12rem;
+}
+.recommendedHolidays,
+.viewAllHolidays {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-family: var(--font-roboto);
+}
+.recommendedHolidays {
+  flex: 1;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: var(--color-darkslategray-200);
+  text-align: left;
+}
+.viewAllHolidays {
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--color-cornflowerblue-200);
+  text-align: right;
+  display: inline-block;
+  width: 7.75rem;
+  flex-shrink: 0;
+}
+.recTitle,
+.viewAllHolidaysParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.viewAllHolidaysParent {
+  text-decoration: none;
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  width: 9.34rem;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 0.47rem;
+}
+.recTitle {
+  align-self: stretch;
+  align-items: center;
+}
+.unsplash5mv818tzxeoIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 7.48px 7.48px 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 11.31rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bali,
+.d3n {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-family: var(--font-roboto);
+  text-align: left;
+}
+.bali {
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: var(--color-darkslategray-100);
+}
+.d3n {
+  font-size: 0.75rem;
+  color: var(--color-darkgray);
+}
+.baliParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.14rem;
+}
+.div4 {
+  position: relative;
+  font-size: 1.5rem;
+  line-height: 1.59rem;
+  font-family: var(--font-baloo-bhai);
+  color: var(--color-cornflowerblue-100);
+  text-align: right;
+  display: inline-block;
+  width: 3.36rem;
+  height: 1.59rem;
+  flex-shrink: 0;
+}
+.holidayDetails,
+.recCard1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.holidayDetails {
+  align-self: stretch;
+  border-radius: 0 0 7.48px 7.48px;
+  background-color: var(--primary-contrast);
+  border: 0.7px solid var(--color-whitesmoke);
+  padding: 0.93rem 0.75rem;
+  justify-content: center;
+}
+.recCard1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0.75rem;
+  background-color: transparent;
+  flex: 1;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  width: 25%;
+}
+.div5 {
+  position: relative;
+  font-size: 1.5rem;
+  line-height: 1.59rem;
+  font-family: var(--font-baloo-bhai);
+  color: var(--color-cornflowerblue-100);
+  text-align: right;
+  display: inline-block;
+  width: 3.5rem;
+  height: 1.59rem;
+  flex-shrink: 0;
+}
+.recCard3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0.75rem;
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  width: 25%;
+}
+.div7 {
+  position: relative;
+  font-size: 1.5rem;
+  line-height: 1.59rem;
+  font-family: var(--font-baloo-bhai);
+  color: var(--color-cornflowerblue-100);
+  text-align: right;
+  display: inline-block;
+  width: 3.27rem;
+  height: 1.59rem;
+  flex-shrink: 0;
+}
+.recCard4,
+.recCardsContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+.recCard4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0.75rem;
+  background-color: transparent;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  width: 25%;
+}
+.recCardsContainer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.viewAllHolidays1 {
+  position: relative;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-200);
+  text-align: right;
+  display: inline-block;
+  width: 7.75rem;
+  flex-shrink: 0;
+}
+.viewAllBottom1 {
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  width: 9.34rem;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.47rem;
+}
+.recommendedHolidaysContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.12rem;
+}
+.popularStays1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.4rem;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: inline-block;
+  font-family: var(--font-roboto);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+  width: 51.64rem;
+  height: 1.64rem;
+}
+.popularStaysTitle {
+  flex: 1;
+  position: relative;
+  height: 1.64rem;
+}
+.viewAllStays {
+  position: relative;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-200);
+  text-align: right;
+  display: inline-block;
+  width: 6.57rem;
+  flex-shrink: 0;
+}
+.viewAllStaysParent {
+  text-decoration: none;
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.47rem;
+}
+.popularStaysHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.unsplashhhrfsdwxxusIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 7.48px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 9.34rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.entireBungalow,
+.matterhornSuites,
+.night {
+  align-self: stretch;
+  position: relative;
+  font-family: var(--font-roboto);
+  text-align: left;
+}
+.entireBungalow {
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+}
+.matterhornSuites,
+.night {
+  letter-spacing: 0.04em;
+  color: var(--color-darkslategray-200);
+}
+.matterhornSuites {
+  font-size: 1.03rem;
+  text-transform: capitalize;
+}
+.night {
+  font-size: 0.84rem;
+}
+.entireBungalowParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.28rem;
+}
+.videoIcon {
+  position: relative;
+  width: 1.17rem;
+  height: 1.17rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.stayDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.51rem;
+}
+.div8,
+.reviews {
+  position: absolute;
+  top: 0;
+  left: 2.51rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-100);
+  text-align: left;
+  display: inline-block;
+  width: 10.11rem;
+  height: 0.89rem;
+}
+.div8 {
+  left: 0.95rem;
+  font-weight: 500;
+  color: var(--color-darkslategray-200);
+  width: 1.12rem;
+}
+.parent3,
+.vectorIcon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.vectorIcon3 {
+  height: 90.47%;
+  width: 37.54%;
+  right: 62.46%;
+  bottom: 9.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.parent3 {
+  width: 2.07rem;
+  height: 0.89rem;
+}
+.button1,
+.rating {
+  position: relative;
+  flex-shrink: 0;
+}
+.rating {
+  align-self: stretch;
+  height: 0.89rem;
+}
+.button1 {
+  font-size: 0.7rem;
+  letter-spacing: 0.34px;
+  line-height: 1.22rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-100);
+  text-align: left;
+  display: inline-block;
+  width: 5.09rem;
+  height: 1.22rem;
+}
+.moreDetailsButton {
+  cursor: pointer;
+  border: 0.7px solid var(--color-lavender);
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: 2.99px;
+  box-sizing: border-box;
+  height: 2.15rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hotelCard,
+.hotelCard1,
+.stayDetails1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.hotelCard {
+  text-decoration: none;
+  border-radius: 7.48px;
+  background-color: var(--primary-contrast);
+  border: 0.7px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 0.7rem 0.61rem;
+  justify-content: flex-start;
+  gap: 1.07rem;
+  width: 25%;
+}
+.hotelCard4:hover,
+.hotelCard5:hover,
+.hotelCard:hover {
+  background-color: var(--color-gainsboro-200);
+}
+.hotelCard1,
+.stayDetails1 {
+  flex-direction: row;
+}
+.hotelCard1 {
+  padding: 0 0.56rem;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 25%;
+}
+.stayDetails1 {
+  justify-content: flex-start;
+}
+.arcticHut,
+.reviews2 {
+  letter-spacing: 0.04em;
+  font-family: var(--font-roboto);
+  text-align: left;
+}
+.arcticHut {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.03rem;
+  text-transform: capitalize;
+  color: var(--color-darkslategray-200);
+}
+.reviews2 {
+  position: absolute;
+  top: 0;
+  left: 2.51rem;
+  font-size: 0.75rem;
+  color: var(--color-cornflowerblue-100);
+  display: inline-block;
+  width: 10.1rem;
+  height: 0.89rem;
+}
+.vectorIcon5 {
+  position: absolute;
+  height: 90.47%;
+  width: 37.58%;
+  top: 0;
+  right: 62.42%;
+  bottom: 9.53%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hotelCard4,
+.hotelCard5 {
+  text-decoration: none;
+  align-self: stretch;
+  flex: 1;
+  border-radius: 7.48px;
+  background-color: var(--primary-contrast);
+  border: 0.7px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem 0.61rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.07rem;
+  width: 25%;
+}
+.hotelCard41,
+.hotelCards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.hotelCard41 {
+  flex: 1;
+  padding: 0 0.56rem;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25%;
+}
+.hotelCards {
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+.viewAllStays1 {
+  position: relative;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-200);
+  text-align: right;
+  display: inline-block;
+  width: 6.57rem;
+  flex-shrink: 0;
+}
+.viewAllStaysGroup {
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.47rem;
+}
+.homeContents,
+.popularStays {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.popularStays {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 0.93rem;
+}
+.homeContents {
+  width: 100%;
+  padding: 0 3.74rem;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 3.74rem;
+  max-width: 80rem;
+}
+.frameChild {
+  position: absolute;
+  width: calc(100% + 0.01px);
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24.76rem;
+  object-fit: cover;
+}
+.formTitle,
+.formTitleSubtext {
+  align-self: stretch;
+  position: relative;
+  font-family: var(--font-roboto);
+  text-align: center;
+}
+.formTitleSubtext {
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-cornflowerblue-200);
+}
+.formTitle {
+  font-size: 1.4rem;
+  color: #434343;
+}
+.formHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.33rem;
+}
+.fillInYour {
+  align-self: stretch;
+  position: relative;
+  font-size: 0.84rem;
+  line-height: 1.59rem;
+  font-family: var(--font-roboto);
+  color: #576074;
+  text-align: left;
+}
+.input1 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.formFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.47rem;
+}
+.button6 {
+  position: relative;
+  font-size: 0.7rem;
+  letter-spacing: 0.34px;
+  line-height: 1.22rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: left;
+}
+.button5,
+.unstyledbutton {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.unstyledbutton {
+  padding: 0.37rem 1.03rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange);
+  border-radius: 2.99px;
+  width: 7.66rem;
+  height: 2.62rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.button5:hover {
+  background-color: #99600a;
+}
+.form,
+.shareYourTravelsForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form {
+  align-self: stretch;
+  border-radius: 8.97px;
+  background-color: var(--primary-contrast);
+  box-shadow: 0 0 17.94px rgba(0, 0, 0, 0.03);
+  border: 0.7px solid var(--color-whitesmoke);
+  padding: 1.31rem 1.4rem;
+  align-items: flex-start;
+  gap: 0.79rem;
+}
+.shareYourTravelsForm {
+  position: relative !important;
+  top: 2.43rem;
+  left: auto !important;
+  width: 25.65rem;
+  padding: 0.93rem;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fickleFlightIs,
+.rectangleParent1 {
+  align-self: stretch;
+  position: relative;
+}
+.rectangleParent1 {
+  background-color: #f3f7fb;
+  height: 24.72rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.fickleFlightIs {
+  font-size: 0.84rem;
+  line-height: 1.26rem;
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: left;
+}
+.socialIcons {
+  position: relative;
+  width: 6.07rem;
+  height: 1.4rem;
+  flex-shrink: 0;
+}
+.fickleflightBio {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.65rem;
+  margin-bottom: 40px !important;
+}
+.footerChild {
+  position: relative;
+  border-right: 0.7px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  width: 0.05rem;
+  height: 7.38rem;
+  flex-shrink: 0;
+}
+.aboutUs {
+  text-decoration: none;
+  top: 2.23rem;
+  font-size: 0.75rem;
+  width: 6.34rem;
+  height: 0.89rem;
+}
+.aboutUs,
+.careers,
+.company1,
+.howWeWork,
+.news {
+  position: absolute;
+  left: 0;
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: left;
+  display: inline-block;
+}
+.company1 {
+  top: 0;
+  font-size: 0.93rem;
+  line-height: 1.26rem;
+  font-weight: 500;
+  width: 8.16rem;
+  height: 1.26rem;
+}
+.careers,
+.howWeWork,
+.news {
+  top: 3.68rem;
+  font-size: 0.75rem;
+  width: 3.94rem;
+  height: 0.89rem;
+}
+.careers,
+.howWeWork {
+  top: 5.13rem;
+  width: 5.38rem;
+}
+.howWeWork {
+  top: 6.58rem;
+  width: 9.22rem;
+}
+.company {
+  position: relative;
+  width: 9.22rem;
+  height: 7.46rem;
+  flex-shrink: 0;
+}
+.account {
+  top: 2.23rem;
+  font-size: 0.75rem;
+  width: 5.12rem;
+  height: 0.89rem;
+}
+.accessibility,
+.account,
+.faq,
+.support1,
+.supportCenter {
+  position: absolute;
+  left: 0;
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: left;
+  display: inline-block;
+}
+.support1 {
+  top: 0;
+  font-size: 0.93rem;
+  line-height: 1.26rem;
+  font-weight: 500;
+  width: 6.15rem;
+  height: 1.26rem;
+}
+.accessibility,
+.faq,
+.supportCenter {
+  top: 3.68rem;
+  font-size: 0.75rem;
+  width: 9.22rem;
+  height: 0.89rem;
+}
+.accessibility,
+.faq {
+  top: 5.13rem;
+  width: 2.48rem;
+}
+.accessibility {
+  top: 6.58rem;
+  width: 7.68rem;
+}
+.covidAdvisory {
+  top: 2.23rem;
+  font-size: 0.75rem;
+  width: 8.08rem;
+  height: 0.89rem;
+}
+.airlineFees,
+.covidAdvisory,
+.more1,
+.tips {
+  position: absolute;
+  left: 0;
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: left;
+  display: inline-block;
+}
+.more1 {
+  top: 0;
+  font-size: 0.93rem;
+  line-height: 1.26rem;
+  font-weight: 500;
+  width: 3.58rem;
+  height: 1.26rem;
+}
+.airlineFees,
+.tips {
+  top: 3.68rem;
+  font-size: 0.75rem;
+  width: 6.32rem;
+  height: 0.89rem;
+}
+.tips {
+  top: 5.13rem;
+  width: 2.36rem;
+}
+.more {
+  position: relative;
+  width: 9.22rem;
+  height: 7.46rem;
+  flex-shrink: 0;
+}
+.footerLinks {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer,
+.footerSection {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer {
+  background: linear-gradient(91.74deg, #0b5ba8 25.38%, #299bd8);
+  flex-direction: row;
+  padding: 1.54rem 3.92rem;
+  gap: 2.06rem;
+}
+.footerSection {
+  flex-direction: column;
+}
+.coverFrame,
+.homepage {
+  background-color: var(--primary-contrast);
+  overflow: hidden;
+}
+.homepage {
+  position: absolute;
+  top: 3.33rem;
+  left: 3.5rem;
+  border-radius: 16px;
+  width: 67.28rem;
+  height: 53.17rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3.22rem;
+}
+.homepage:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+.coverFrame {
+  position: relative;
+  width: 100%;
+  height: 60rem;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: #99d2f5;
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1440px) {
+  .topHeader {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .flightMainContainer {
+    width: 32.5rem;
+  }
+  .hotelCard,
+  .hotelCard4,
+  .hotelCard5 {
+    width: 25% !important;
+  }
+  .footer,
+  .hotelCards {
+    box-sizing: border-box;
+  }
+  .hotelCards {
+    padding-right: var(--padding-21xl);
+    margin-left: -0.75rem;
+    margin-right: -3.12rem;
+  }
+  .footer {
+    padding: var(--padding-21xl);
+  }
+}
+@media screen and (max-width: 768px) {
+  .navigationMenu {
+    display: none;
+  }
+  .hamburgerMenuIcon {
+    display: flex;
+  }
+  .topHeader {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .inputsRow {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .searchFlightsButton {
+    margin-right: auto;
+  }
+  .buttonGroup {
+    width: 100%;
+    text-align: left;
+  }
+  .searchForm {
+    flex-direction: column;
+  }
+  .searchContainer {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .horizontalLine {
+    width: 100%;
+  }
+  .flightMainContainer {
+    width: 100%;
+    display: block;
+    margin-bottom: 1.88rem;
+  }
+  .lineSeparator {
+    display: none;
+  }
+  .prepareMenu {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .flightDetails {
+    flex-direction: column;
+  }
+  .upcomingFlightSection {
+    display: block;
+  }
+  .viewAllTop {
+    display: none;
+  }
+  .card1 {
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    width: 50%;
+  }
+  .cardsContainer {
+    flex-wrap: wrap;
+    margin: -1rem;
+  }
+  .viewAllDestinations1 {
+    width: auto;
+  }
+  .viewAllBottom {
+    display: flex;
+    margin-top: 1rem;
+  }
+  .viewAllHolidaysParent {
+    display: none;
+  }
+  .recCard1 {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  .recCard3,
+  .recCard4 {
+    width: 50%;
+  }
+  .recCardsContainer {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    flex-wrap: wrap;
+  }
+  .viewAllHolidays1 {
+    width: auto;
+  }
+  .viewAllBottom1 {
+    display: flex;
+    mrgin-top: 16px;
+  }
+  .viewAllStaysParent {
+    display: none;
+  }
+  .hotelCard {
+    width: 100%;
+  }
+  .hotelCard1 {
+    width: 33.33%;
+  }
+  .hotelCard4 {
+    width: 100%;
+  }
+  .hotelCard5 {
+    width: 33.33% !important;
+  }
+  .hotelCard41 {
+    display: none;
+    width: 33.33%;
+  }
+  .hotelCards {
+    margin-right: -3.12rem;
+    margin-left: -0.75rem;
+  }
+  .viewAllStays1 {
+    width: auto;
+  }
+  .viewAllStaysGroup {
+    display: flex;
+    margin-top: 1rem;
+  }
+  .homeContents {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .shareYourTravelsForm {
+    padding: var(--padding-5xl) 0;
+    box-sizing: border-box;
+  }
+  .fickleflightBio {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footerChild {
+    display: none;
+  }
+  .footerLinks {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer {
+    flex-direction: column;
+    padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .navigationRight {
+    display: flex;
+  }
+  .letsExplore {
+    font-size: 2.63rem;
+    line-height: 3rem;
+  }
+  .inputGroup {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputsRow {
+    flex-direction: column;
+  }
+  .searchFlightsButton {
+    width: 100% !important;
+  }
+  .hotel {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    width: 33.33%;
+    text-align: center;
+  }
+  .tripMenus {
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -1.75rem;
+    margin-right: -1.75rem;
+  }
+  .mostPopularDestinations {
+    font-size: var(--font-size-3xl);
+  }
+  .titleContainer {
+    flex: unset;
+    align-self: stretch;
+  }
+  .destinationsTitles {
+    flex-direction: column;
+    align-self: flex-start;
+  }
+  .card1 {
+    width: 100%;
+  }
+  .recommendedHolidays {
+    font-size: var(--font-size-3xl);
+  }
+  .recCard1,
+  .recCard3 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .recCard4 {
+    width: 100%;
+  }
+  .popularStays1 {
+    font-size: var(--font-size-3xl);
+  }
+  .matterhornSuites {
+    font-size: var(--font-size-xl);
+  }
+  .hotelCard,
+  .moreDetailsButton {
+    width: 100% !important;
+  }
+  .hotelCard {
+    margin-bottom: 1.25rem;
+  }
+  .hotelCard1 {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .hotelCard4,
+  .hotelCard5 {
+    display: flex;
+    width: 100% !important;
+  }
+  .hotelCard41 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .hotelCards {
+    flex-direction: column;
+    padding-right: 0;
+    box-sizing: border-box;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+  }
+  .button5 {
+    width: 100%;
+  }
+  .button5:hover {
+    background-color: #9e6104;
+  }
+  .shareYourTravelsForm {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100%;
+  }
+  .company {
+    margin-bottom: 40px !important;
+  }
+  .footerLinks {
+    flex-direction: column;
+  }
+  .footer {
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .homepage {
+    width: 100%;
+  }
+  .homepage:hover {
+    background-color: var(--color-orange);
+  }
+}
